@@ -163,6 +163,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void btnNuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNuevoActionPerformed
         txtValor.setText("");
+        lblResultado.setText("");
         this.obtenerNuevoNumero();
         System.out.println("numero: " + numero);
         this.intentos = 6;
